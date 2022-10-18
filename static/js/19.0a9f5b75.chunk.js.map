@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/app-views/home/index.js"],"names":["Home"],"mappings":"0HASeA,UARF,WACZ,OACC","file":"static/js/19.0a9f5b75.chunk.js","sourcesContent":["import React from 'react'\r\nconst Home = () => {\r\n\treturn (\r\n\t\t<div>\r\n1\r\n\t\t</div>\r\n\t)\r\n}\r\n\r\nexport default Home\r\n"],"sourceRoot":""}

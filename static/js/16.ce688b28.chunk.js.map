@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/app-views/catalog/collection/index.jsx"],"names":["Collection"],"mappings":"0HAUeA,UARI,WACf,OACI","file":"static/js/16.ce688b28.chunk.js","sourcesContent":["import React from 'react';\n\nconst Collection = () => {\n    return (\n        <div>\n            Collection\n        </div>\n    );\n};\n\nexport default Collection;\n"],"sourceRoot":""}

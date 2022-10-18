@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/app-views/catalog/combo/index.js"],"names":["Combo"],"mappings":"0HAUeA,UARD,WACV,OACI","file":"static/js/17.9f51d808.chunk.js","sourcesContent":["import React from 'react';\n\nconst Combo = () => {\n    return (\n        <div>\n            Combo\n        </div>\n    );\n};\n\nexport default Combo;\n"],"sourceRoot":""}
