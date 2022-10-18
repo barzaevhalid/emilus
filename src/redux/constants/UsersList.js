@@ -1,0 +1,5 @@
+export const SET_USERS = 'SET_USERS';
+export const ASYNC_SET_USERS = 'ASYNC_SET_USERS';
+export const REMOVE_USER = 'REMOVE_USER';
+export const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING';
+
