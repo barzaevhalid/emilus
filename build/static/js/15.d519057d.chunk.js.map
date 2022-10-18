@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/app-views/catalog/categories/index.jsx"],"names":["Categories"],"mappings":"0HAUeA,UARI,WACf,OACI","file":"static/js/15.d519057d.chunk.js","sourcesContent":["import React from 'react';\n\nconst Categories = () => {\n    return (\n        <div>\n            Categories\n        </div>\n    );\n};\n\nexport default Categories;\n"],"sourceRoot":""}
