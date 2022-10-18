@@ -23,7 +23,8 @@ export class EditProfile extends Component {
 	}
 
 	componentWillMount() {
-		const userId = window.location.pathname[window.location.pathname.length - 1]
+		const userId = this.props.location.pathname[this.props.location.pathname.length - 1]
+		console.log(userId)
 		axios.get(`https://jsonplaceholder.typicode.com/users/${userId}`).then(data => this.setState({user:data.data}))
 
 	}
@@ -78,9 +79,9 @@ export class EditProfile extends Component {
 			if(!this.state.user) {
 				return <Loading align={'center'} cover={'content'}/>
 			}
-		const { name, email, username,  phone, website, address,  postcode, avatarUrl } = this.state.user;
+		const { name, email, username,  phone, website, address,  } = this.state.user;
+		console.log(this.state)
 		return (
-
 			<>
 				<Flex alignItems="center" mobileFlex={false} className="text-center text-md-left">
 					<Avatar size={90} src={''} icon={<UserOutlined />}/>

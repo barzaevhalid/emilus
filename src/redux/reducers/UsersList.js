@@ -9,7 +9,6 @@ const initialState = {
 const usersList = (state = initialState, action) => {
     switch (action.type) {
         case TOGGLE_IS_FETCHING:
-            console.log(action.fetching)
             return {
                 ...state,
                 loading: action.fetching

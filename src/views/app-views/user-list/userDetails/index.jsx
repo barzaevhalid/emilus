@@ -21,6 +21,7 @@ const SettingOption = () => {
 
 const SettingContent = () => {
 	 const url = window.location.pathname.replace([window.location.pathname.length - 1])
+	console.log('sadas')
 	return (
 		<Switch>
 			<Route path={url} component={EditProfile} />
